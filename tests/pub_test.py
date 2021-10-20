@@ -9,8 +9,7 @@ class TestPub(unittest.TestCase):
     def test_pub__has_name(self):
         self.assertEqual("The Prancing Pony", self.pub.name)
 
-    def test_pub__has_till(self):
-        self.assertEqual(1000.0, self.till.total_cash)
+  
 
     # def test_pub__has_drinks(self):
     #     self.assertEqual("The Prancing Pony", self.drinks.name)
