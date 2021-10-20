@@ -1,5 +1,5 @@
 import unittest
-from src.drinks import Drinks
+from src.drinks import *
 
 
 class TestDrinks(unittest.TestCase):
@@ -12,5 +12,4 @@ class TestDrinks(unittest.TestCase):
 
     def test_drink__has_price(self):
         self.assertEqual(4.50, self.drinks.price)
-
     
