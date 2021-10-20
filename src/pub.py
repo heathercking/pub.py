@@ -16,5 +16,13 @@ class Pub:
             if drink.name == drink_name:
                 return drink
 
+
+    def find_drink_price(self, drink_name):
+        for drink in self.drinks:
+            if drink.name == drink_name:
+                return drink.price
+
     def add_drink(self, drink):
         self.drinks.append(drink)
+
+    
