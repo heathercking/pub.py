@@ -19,3 +19,4 @@ class TestPub(unittest.TestCase):
         self.ourpub.add_drink(new_drink)
         self.assertEqual(1, len(self.ourpub.drinks))
 
+    
